@@ -8,7 +8,7 @@ const Stack = createNativeStackNavigator();
 function App(): React.JSX.Element {
   return (
     <NavigationContainer>
-      <Stack.Navigator>
+      <Stack.Navigator initialRouteName='Login'>
         <Stack.Screen
           name="Login"
           component={LoginView}
