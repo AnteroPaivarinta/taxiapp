@@ -8,8 +8,8 @@ export const LoginView = () => {
   const height = windowDimensions.height;
   
   return(
-    <View testID='LoginView' style={{height: height, width: width}}>
-      TEST
+    <View testID="LoginView" style={{height: height, width: width}}>
+      <Text>TEST</Text>
     </View>
   )
 }
